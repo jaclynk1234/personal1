@@ -1,0 +1,184 @@
+/*General format for heading and format*/
+h3 {
+    font-size: 30px;
+    color:#223818;
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3626A7;
+}
+
+ul.navigation li {float: left;}
+
+ul.navigation li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+ul.navigation li a:hover {
+    background-color: #657ED4;
+    color: #596F62;
+    
+}
+
+body {
+    font-family: 'calibri', arvo, sans-serif;
+    background-color:#E8E8E9;
+    background-image: url("paws.jpg");
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+/*HOME PAGE*/
+.front {
+    text-align: center;
+    opacity: .8;
+}
+
+.YS{
+    margin:auto;
+    text-align: left;
+    background-color:#657ED4;
+    color:white;
+    font-size: 37px;
+    height: 100px;
+    box-sizing: border-box;
+    padding:25px;
+}
+
+
+.porty{
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 420px;
+    text-align: center;
+    background-color: #FEEDF7;
+}
+
+
+
+/*ABOUT US page*/
+.bios {
+    text-align: center;
+}
+ 
+.bios > div {
+     vertical-align: top;
+}
+
+.blocks {
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    background-color: #FEEDF7
+
+}
+
+.text{
+    text-align: left;
+    font-size: 20px;
+    color: navy;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.references {
+    list-style:none;
+}
+
+.references a:link {
+    color:#223818;
+    text-decoration: none;
+}
+
+.veganimg {
+    text-align:center;
+    opacity: .8;
+}
+
+/*GALLERY page*/
+.images {
+    text-align:center;
+    margin:20px;
+}
+
+.images > div {
+    display:inline-block;
+    width:350px;
+    height:300px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left:10px;
+    vertical-align:top;
+    position:relative;
+    background-color:#FEEDF7;
+}
+.images p {
+    position:absolute;
+    bottom:0px;
+}
+
+
+
+/*CONTACT page*/
+.contact-page {
+    margin:auto;
+    text-align: center
+}
+
+.contact {
+    width:320px;
+    height:420px;
+    vertical-align: top;
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left:10px;
+    padding-right: 4px;
+    padding-top:10px;
+    text-align: center;
+    background-color: #FEEDF7;
+}
+
+.text{
+    text-align: left;
+    font-size: 20px;
+    color: navy;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+iframe{
+    width:15vw;
+    height:30vh;
+    margin:15vh, 15vw;
+    border: 3px, solid blue;
+   margin: auto;
+    
+}
